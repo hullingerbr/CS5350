@@ -69,6 +69,7 @@ for i in range(m):
     cost += ((bCurr + wx - yTest[i])**2)/(2*m)
 print("Cost=",cost)
 plt.plot(costs)
+plt.show()
 
 #Stochastic Gradient Descent
 random.seed()
@@ -122,6 +123,7 @@ for i in range(m):
     cost += ((bCurr + wx - yTest[i])**2)/(2*m)
 print("Cost=",cost)
 plt.plot(costs)
+plt.show()
 
 #Calculate Optimal Solution
 m = xTrain.shape[1]
