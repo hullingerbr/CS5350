@@ -45,3 +45,18 @@ $ jupyter notebook "Gradient Descent.ipynb"
 
 This method will require more manual execution of the code, but allows walking through it step by step. Just click in the first cell, then press shift+enter to run each cell in order to get the results. The last 3 cells will print the same results as running the bash script or the python code directly.
 --------------------------------
+
+
+--------------------------------
+Perceptron
+--------------------------------
+To use the linear regression code, first make sure that the Linear Regression file you are using is identical to the one in the repository. The code for this can be run in one of following ways
+
+From the console while in the directory:
+$ jupyter notebook "Perceptron.ipynb"
+
+Simply click into the first cell, and then press shift+enter to run the cells in order. The last 3 cells return the results.
+The third to last cell returns the learned weight vector along with the accuracy of the standard perceptron algorightm.
+The second to last cell returns the vectors and their counts for the voted perceptron, as well as the accuracy of the discovered weight vector.
+The last cell returns the learned weight vector for the Average Perceptron algorightm, along with the accuracy of the model.
+--------------------------------
