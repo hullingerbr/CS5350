@@ -60,3 +60,38 @@ The third to last cell returns the learned weight vector along with the accuracy
 The second to last cell returns the vectors and their counts for the voted perceptron, as well as the accuracy of the discovered weight vector.
 The last cell returns the learned weight vector for the Average Perceptron algorightm, along with the accuracy of the model.
 --------------------------------
+
+--------------------------------
+SVM
+--------------------------------
+To use the linear regression code, first make sure that the Linear Regression file you are using is identical to the one in the repository. The code for this can be run in one of following ways
+
+From the console while in the directory:
+$ jupyter notebook "SVM.ipynb"
+
+The first Cell is merely for loading libraries
+Cells 2 and 3 load in functions for the SVM
+Cell 4 is used to check my answers on the theory questions. It can be ignored
+Cell 5 loads the training and testing data, then cleans it up for use in the SVM
+Cell 6 trains and tests the SVM for practice problem 2a
+Cell 7 trains and tests the SVM for practice problem 2b
+Cell 8 was an attempt at getting the Dual SVM working. I think it's right.
+Cell 9 tries to find the optimum for the Dual SVM. Runs very slowly though. Could not get an answer
+
+--------------------------------
+
+--------------------------------
+Neural Network
+--------------------------------
+To use the linear regression code, first make sure that the Linear Regression file you are using is identical to the one in the repository. The code for this can be run in one of following ways
+
+From the console while in the directory:
+$ jupyter notebook "NeuralNet.ipynb"
+
+Cells 1, 2 and 3 load libraries, classes, and functions for the rest of the code to work
+Cell 4 loads the training data and formats it properly for use in the Neural Net. 
+  It then creates a Neural Net with Width=W, which can be changed to any value less than 25 (any larger and the sigmoid function overflows)
+  It then runs stochastic gradient descent to train the Neural Network over E epochs. Change E to change the number of Epochs
+  Finally, it prints how many data values the Nerual Network correctly identified among the testing and training data.
+
+--------------------------------
